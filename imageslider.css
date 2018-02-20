@@ -1,0 +1,43 @@
+body{
+	
+	background:white;
+	margin:0;
+	padding:0;		/* to remove default top margin of browser*/
+}
+
+.navbar 
+{	
+	height:35px;
+	width:100%;
+	background:black;
+	
+}
+
+.navbar a{
+	float:left;
+	color:white;
+	padding:8px;
+	display:block;
+	
+}
+
+.navbar a:hover{
+	background-color:gray;
+	
+}
+
+.imageslider{	
+	margin:20px 300px 20px 300px;
+	text-align:center;
+}
+.imagetext {
+	display:none;	
+	color:blue;
+	
+}
+
+.myImage{
+	display:none;
+	width:800px;
+	height:400px;
+}
